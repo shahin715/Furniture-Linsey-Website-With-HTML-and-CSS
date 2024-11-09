@@ -192,8 +192,10 @@
     padding: 20px;
     scrollbar-width: none;
 }
+
 .slider-container::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
+    display: none;
+    /* For Chrome, Safari, and Edge */
 }
 
 .slider-card {
@@ -240,11 +242,98 @@
     background-color: #DFDFDF;
     margin-top: 1rem;
 }
-.divider div{
+
+.divider div {
     width: 30%;
     height: 2px;
     background-color: #FD8311;
 }
+
+/*New Decoration For Your Living Spaces*/
+.new-decoration {
+    display: flex;
+    gap: 96px;
+}
+
+.left-decoration-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.right-decoration-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.right-decoration-content  > div:first-child {
+    padding-right: 20px;
+}
+
+.right-decoration-content  > div:last-child {
+    padding-left: 20px;
+    
+}
+
+.decoration {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+
+.active {
+    width: 100%;
+    height: 2px;
+    background-color: #DFDFDF;
+    margin-top: 1rem;
+}
+
+
+
+.decoration-top-text {
+    margin-top: 18px;
+    color: rgb(253, 131, 17);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    gap: 8px;
+}
+
+.decoration-title-text {
+    color: #313D4D;
+    width: 600;
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 18px;
+}
+
+.chair-card {
+    width: 100%;
+}
+
+.chair-card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    margin-bottom: 18px;
+}
+
+.category-product-name {
+    color: #313D4D;
+    font-size: 24px;
+}
+
+.category-product-link {
+    color: #5F5F5F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 /*Our Showroom*/
 .showroom {
